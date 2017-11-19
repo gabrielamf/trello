@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  background-color: #278EC0;
+
+}
+
+.sizeIcon {
+  font-size: 1.5em;
+}
+
+header {
+  background-color: #196b91;
+  color: #ffffff;
+}
+
+nav {
+  width: 95%;
+  outline: 1px solid red;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+nav .search {
+  width: 30%;
+  float: left;
+  border-radius: 5px;
+  outline: 1px solid red;
+  padding: .5em .5em;
+}
+
+.search .tableros {
+  display: inline-block;
+  background-color: #68A3C0;
+  border-radius: 5px;
+  outline: 1px solid red;
+  padding: .3em .5em;
+  margin-right: .5em;
+}
+
+.search .tableros span {
+  display: inline-block;
+  outline: 1px solid blue;
+  margin-right: .3em;
+}
+
+.search .tableros p {
+  display: inline-block;
+  outline: 1px solid blue;
+  font-weight: 300;
+}
+.search .input {
+  display: inline-block;
+  outline: 1px solid blue;
+  background-color: #68A3C0;
+  border-radius: 5px;
+  padding: .4em .5em;
+  position: absolute;
+
+}
+.search .input input {
+  display: inline-block;
+  padding: .25em .5em;
+  border: none;
+  background-color: #68A3C0;
+}
+
+
+
+
+nav .logo {
+  width: 40%;
+  float: left;
+  text-align: center;
+  outline: 1px solid yellow;
+  padding-top: .5em;
+}
+
+nav .logo span {
+  display: inline-block;
+  margin-right: .3em;
+  color: #68A3C0;
+  font-size: 1.3em;
+}
+
+nav .logo p {
+  display: inline-block;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5em;
+  color: #68A3C0;
+}
+
+
+
+
+nav .options {
+  width: 30%;
+  text-align: right;
+  display: inline-block;
+}
+
+nav .options span {
+  background-color: #68A3C0;
+  border-radius: 5px;
+  margin: 0 .2em;
+  display: inline-block;
+  padding: .5em .6em;
+  position: relative;
+  top: -.4em;
+}
+
+
+nav .options .profile {
+  width: 2.5em;
+  height: 2.5em;
+  background-color: #ffffff;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  top: .3em;
+}
+
+nav .options p {
+  outline: 1px solid red;
+  float: right;
+  position: relative;
+  top: 1em;
+  color: #1E7AA5;
+  right: 1.5em;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+section.tools {
+  width: 95%;
+  margin: 0 auto;
+  padding: 1em 1em 1em .5em;
+  color: #ffffff;
+  font-weight: 300;
+  position: relative;
+}
+
+.tools p,span {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.tools .menu {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+.cards {
+  width: 95%;
+  margin: 0 auto;
+}
+
+#form {
+  display: inline-block;
+}
+
+
+
+.cards #firstInput {
+  border: none;
+  background-color:#1681b4;
+  padding: 1em 1em;
+  border-radius: 5px;
+}
+
+.cards ::-webkit-input-placeholder {
+  /* Google Chrome y Safari */
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 1.1em;
+
+}
+
+.buttonGuardar {
+  background-color: green;
+}
