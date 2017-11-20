@@ -1,3 +1,4 @@
+/* Reseteando codigo */
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +9,6 @@
 body {
   font-size: 16px;
   background-color: #278EC0;
-
 }
 
 .sizeIcon {
@@ -22,7 +22,6 @@ header {
 
 nav {
   width: 95%;
-  outline: 1px solid red;
   margin: 0 auto;
   overflow: auto;
 }
@@ -31,7 +30,6 @@ nav .search {
   width: 30%;
   float: left;
   border-radius: 5px;
-  outline: 1px solid red;
   padding: .5em .5em;
 }
 
@@ -39,31 +37,27 @@ nav .search {
   display: inline-block;
   background-color: #68A3C0;
   border-radius: 5px;
-  outline: 1px solid red;
   padding: .3em .5em;
   margin-right: .5em;
 }
 
 .search .tableros span {
   display: inline-block;
-  outline: 1px solid blue;
   margin-right: .3em;
 }
 
 .search .tableros p {
   display: inline-block;
-  outline: 1px solid blue;
   font-weight: 300;
 }
 .search .input {
   display: inline-block;
-  outline: 1px solid blue;
   background-color: #68A3C0;
   border-radius: 5px;
   padding: .4em .5em;
   position: absolute;
-
 }
+
 .search .input input {
   display: inline-block;
   padding: .25em .5em;
@@ -71,14 +65,10 @@ nav .search {
   background-color: #68A3C0;
 }
 
-
-
-
 nav .logo {
   width: 40%;
   float: left;
   text-align: center;
-  outline: 1px solid yellow;
   padding-top: .5em;
 }
 
@@ -95,9 +85,6 @@ nav .logo p {
   font-size: 1.5em;
   color: #68A3C0;
 }
-
-
-
 
 nav .options {
   width: 30%;
@@ -127,7 +114,6 @@ nav .options .profile {
 }
 
 nav .options p {
-  outline: 1px solid red;
   float: right;
   position: relative;
   top: 1em;
@@ -162,27 +148,105 @@ section.tools {
   margin: 0 auto;
 }
 
-#form {
+.cards #inputInicio {
   display: inline-block;
+  color: #ffffff;
+  font-weight: 300;
+  background-color: #196b91;
+  font-family: 'Roboto', sans-serif;
+  padding: .8em 4.4em;
+  border-radius: 5px;
+  width: 16em;
 }
 
+.cards #inputInicio:hover {
+  background-color: #0f4f6e;
+}
 
-
-.cards #firstInput {
-  border: none;
-  background-color:#1681b4;
-  padding: 1em 1em;
+/* Estilos para la nueva lista que incluye el titulo y un boton guardar */
+.tarjeta {
+  background-color: #e0e0e0;
+  padding: .8em .8em;
   border-radius: 5px;
+  display: inline-block;
+  vertical-align: top;
+  width: 16em;
+}
+
+.addTitle {
+  border: none;
+  background-color:#d1d0d0;
+  padding: .8em 3em;
+  border-radius: 5px;
+  display: block;
+  font-size: .8em;
+  margin-bottom: .6em;
+  width: 100%;
 }
 
 .cards ::-webkit-input-placeholder {
   /* Google Chrome y Safari */
-  color: #ffffff;
+  color: #5b5a5a;
   font-weight: 300;
   font-size: 1.1em;
-
 }
 
-.buttonGuardar {
-  background-color: green;
+.buttonStyle {
+  background-color: #97cb65;
+  border: 3px solid #7eb04d;
+  padding: .5em .9em;
+  color: #ffffff;
+  font-weight: 100;
+  font-size: .8em;
+  border-radius: 5px;
+}
+
+/* Estilos para la nueva tarjeta que incluye el titulo y el input añadir newTarea */
+
+.cards .newList {
+  display: inline-block;
+  background-color: #e0e0e0;
+  padding: .8em .8em;
+  border-radius: 5px;
+  margin-right: 2em;
+  width: 16em;
+}
+
+/* Estilos para el titulo de la nueva lista */
+.titleNewList {
+  display: block;
+  padding: .4em 0em;
+  border: none;
+  background-color: transparent;
+  font-size: 1em;
+  font-weight: 700;
+  width: 100%;
+}
+
+.addTask {
+  border: none;
+  display: block;
+  background-color: #b9b6b6;
+  padding: .6em 4.5em;
+  width: 100%;
+}
+
+/* Estilos para la nueva tarea */
+.newTask {
+  display: block;
+  margin: 0 auto;
+  resize: none;
+  width: 100%;
+  height: 4em;
+  margin-bottom: 1em;
+}
+
+/* Estilos para la tarea guardada */
+.taskSaved {
+  background-color: #ffffff;
+  padding: .5em .5em;
+  border-radius: 5px;
+  margin-bottom: .6em;
+  font-weight: 300;
+  color: #5b5a5a;
 }
